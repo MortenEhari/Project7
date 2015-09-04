@@ -14,10 +14,13 @@ body {
     width: 150px;
     position: fixed;
     margin-left: 1015px;
+    cursor: pointer;
 }
 #header {
     background-color: white;
-    font-size: 15px;
+    font-size: 13px;
+    font-family: Impact, Arial;
+    text-shadow: 3px 3px #888888;
     border: 4px solid darkslategrey;
     border-radius: 5px;
     height: 100px;
@@ -42,13 +45,36 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    min-width: 300px;
+    max-width: 1000px;
+}
+#pilt1 {
+    float: left;
+}
+#pilt2 {
+    float: right;
+}
+.top {
+    vertical-align: text-top;
+}
+.bottom {
+    vertical-align: text-top;
+}
+.1 {
+    list-style-type: circle;
 }
 h6 {
     display: inline;
+    font-weight: lighter;
 }
 h5 {
     display: inline;
+    font: 12px arial, sans-serif;
 }
 h4 {
     display: inline;
+    font: 15px arial, sans-serif;
+}
+h2 {
+    text-decoration: underline;
 }
