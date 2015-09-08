@@ -60,7 +60,7 @@ body {
 .bottom {
     vertical-align: text-top;
 }
-.1 {
+.tbody {
     list-style-type: circle;
 }
 h6 {
@@ -70,10 +70,6 @@ h6 {
 h5 {
     display: inline;
     font: 12px arial, sans-serif;
-}
-h4 {
-    display: inline;
-    font: 15px arial, sans-serif;
 }
 h2 {
     text-decoration: underline;
